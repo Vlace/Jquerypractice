@@ -1,0 +1,39 @@
+.movieChart {
+	text-align: center;
+}
+
+table,
+th {
+	border-collapse: collapse;
+	padding: 20px;
+	font-size: 2em;
+	border: 5px solid black;
+}
+
+td {
+	border-right: 2px solid grey;
+}
+
+tr:nth-child(even) {
+	background: #ccc;
+}
+
+.headerSortDown:after,
+.headerSortUp:after {
+	content: ' ';
+	position: relative;
+	left: 10px;
+	border: 7px solid transparent;
+}
+.headerSortDown:after {
+	top: 10px;
+	border-top-color: silver;
+}
+.headerSortUp:after {
+	bottom: 15px;
+	border-bottom-color: silver;
+}
+.headerSortDown,
+.headerSortUp {
+	padding-left: 20px;
+}
